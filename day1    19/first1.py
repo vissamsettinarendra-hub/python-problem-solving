@@ -34,8 +34,7 @@ name = "Manish"
 #syntax
 
 #   var  -> value
-     |
-    identifier:var_names,class names,
+# identifier:var_names,class names,
 
 # example
 a = 30
