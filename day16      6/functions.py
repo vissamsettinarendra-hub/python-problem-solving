@@ -111,9 +111,9 @@ squares by default parameters
 '''
 # Function to calculate square using default parameter
 
-# def square(a,b=2):
-#     print(a**b)
-# square(10)
+def square(a,b=2):
+    print(a**b)
+square(10)
 
 '''
 4.variables length arguments
