@@ -40,15 +40,15 @@ c1.add(10,20,30)
 #run time polymorphism:
 # -->method overriding
 '''
-# class Bird:
-#     def fly(self):
-#         print("Bird Flying")
-# class Eagle(Bird):
-#     def fly(self):
-#         print("eagle is flying")
-# e1 = Eagle()
-# #method is choosen during run time
-# e1.fly()
+class Bird:
+    def fly(self):
+        print("Bird Flying")
+class Eagle(Bird):
+    def fly(self):
+        print("eagle is flying")
+e1 = Eagle()
+#method is choosen during run time
+e1.fly()
 
 '''
 #duck typing in python
